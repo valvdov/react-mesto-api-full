@@ -7,4 +7,4 @@ IP 158.160.24.149
 
 Frontend https://mesto.valvdov.nomoredomains.club
 
-Backend https://api.valvdov.mesto.nomoredomains.club'
+Backend https://api.mesto.valvdov.nomoredomains.club
