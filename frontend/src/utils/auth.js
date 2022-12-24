@@ -44,6 +44,6 @@ class Auth {
   };
 }
 
-//const auth = new Auth('https://api.mesto.valvdov.nomoredomains.club');
-const auth = new Auth('http://192.168.0.35:3000');
+const auth = new Auth('https://api.mesto.valvdov.nomoredomains.club');
+//const auth = new Auth('http://192.168.0.35:3000');
 export default auth;

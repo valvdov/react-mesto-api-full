@@ -74,8 +74,8 @@ class Api {
 }
 
 const api = new Api({
-  //baseUrl: 'https://api.mesto.valvdov.nomoredomains.club',
-  baseUrl: 'http://192.168.0.35:3000',
+  baseUrl: 'https://api.mesto.valvdov.nomoredomains.club',
+  //baseUrl: 'http://192.168.0.35:3000',
   headers: {
     'Accept': 'application/json',
     Authorization: `Bearer ${localStorage.getItem('token')}`,
