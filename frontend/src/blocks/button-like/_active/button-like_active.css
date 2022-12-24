@@ -1,0 +1,7 @@
+.button-like_active {
+  background-image: url(../../../images/like-button-active.svg);
+}
+
+.button-like_active:hover {
+  opacity: 1;
+}
