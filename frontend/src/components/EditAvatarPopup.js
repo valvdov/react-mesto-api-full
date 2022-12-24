@@ -18,7 +18,7 @@ function EditAvatarPopup({ isOpen, onClose, onUpdateAvatar, onLoading }) {
 
   return (
     <PopupWithForm
-      name="avatar"
+      name="avatarPopup"
       title="Обновить аватар"
       buttonText={onLoading ? `Сохранение` : `Сохранить`}
       isOpen={isOpen}
@@ -28,7 +28,7 @@ function EditAvatarPopup({ isOpen, onClose, onUpdateAvatar, onLoading }) {
       isDisabled={!isFormValid}>
       <label className="form__field form__field-first">
         <input
-          name="avatarUrl"
+          name="avatar"
           className={errors.avatar ? 'form__input form__input_type_error' : "form__input"}
           id="avatar-input"
           type="url"

@@ -3,7 +3,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const { errors } = require('celebrate');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
-const auth = require('./middlewares/auth');
 const cors = require('./middlewares/cors');
 
 const { PORT = 3000 } = process.env;
@@ -20,7 +19,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors);
 app.use(requestLogger);
 app.use(router);
-app.use(auth);
 app.get('/crash-test', () => {
   setTimeout(() => {
     throw new Error('Сервер сейчас упадёт');
