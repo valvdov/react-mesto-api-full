@@ -1,6 +1,6 @@
 const allowedCors = [
-  'http://valvdov.mesto.nomoredomains.club',
-  'https://valvdov.mesto.nomoredomains.club',
+  'http://mesto.valvdov.nomoredomains.club',
+  'https://mesto.valvdov.nomoredomains.club/',
   'http://api.valvdov.mesto.nomoredomains.club',
   'https://api.valvdov.mesto.nomoredomains.club',
   'http://localhost:3000',
